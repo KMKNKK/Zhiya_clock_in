@@ -1,0 +1,17 @@
+<view class="container log-list">
+  <calendar
+    calendarConfig="{{calendarConfig}}"
+    bind:afterTapDay="afterTapDay"
+    bind:whenChangeMonth="whenChangeMonth"
+    bind:onTapDay="onTapDay"
+    bind:afterCalendarRender="afterCalendarRender">
+  </calendar>
+  <van-panel title="{{userTapDate}}" desc="描述信息" status="状态" style="width: 100%">
+    <van-switch-cell
+      title="{{isMensesNow ? '大姨妈走了吗？' : '大姨妈来了吗？'}}"
+      checked="{{ checked }}"
+      bind:change="onChange"
+      active-color="#ff629a"
+    />
+  </van-panel>
+</view>

@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/menses/menses",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "calendar": "component/calendar/index",
+    "van-panel": "component/vant/dist/panel/index",
+    "van-switch-cell": "component/vant/dist/switch-cell/index"
+  }
+}
